@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Padding(
                         padding: EdgeInsets.all(10),
                         child: Image(
-                          image: AssetImage('images/plant.png'),
+                          image: NetworkImage('https://raw.githubusercontent.com/squirre1Bear/PVZ_databsase/master/plant.png'),
                           alignment: Alignment.center,
                           height: 100,
                         ),
@@ -177,7 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Padding(
                         padding: EdgeInsets.all(10),
                         child: Image(
-                          image: AssetImage('images/zombie.png'),
+                          image: NetworkImage('https://raw.githubusercontent.com/squirre1Bear/PVZ_databsase/master/zombie.png'),
                           alignment: Alignment.center,
                           height: 100,
                         ),
